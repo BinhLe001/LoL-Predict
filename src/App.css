@@ -28,7 +28,7 @@
 
 .Bracket-body {
   height: 440px;
-  margin: 10px 130px 0px 130px;
+  margin: 10px 100px 0px 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border-right: 3px #000000;
@@ -60,7 +60,7 @@
 
 .Vertical-stroke {
   position: absolute;
-  left: 31.1%;
+  left: 28.75%;
   background-color: #000000;
   width: 2px;
   height: 55px;
@@ -68,7 +68,7 @@
 
 .Vertical-stroke2 {
   position: absolute;
-  left: 52.2%;
+  left: 49.85%;
   background-color: #000000;
   width: 2px;
   height: 110px;
@@ -76,7 +76,7 @@
 
 .Vertical-stroke3 {
   position: absolute;
-  left: 73.3%;
+  left: 70.95%;
   background-color: #000000;
   width: 2px;
   height: 220px;
@@ -84,26 +84,22 @@
 
 .Win-prob {
   position: absolute;
-  left: 39%;
+  left: 38.4%;
 }
 
 .Win-prob2 {
   position: absolute;
-  left: 59.2%;
+  left: 59.6%;
 }
 
 .Win-prob3 {
   position: absolute;
-  left: 79.8%;
-}
-
-#Right-border {
-  /* border-right: 3px solid; */
+  left: 80.8%;
 }
 
 .Bracket-button {
   text-align: right;
-  padding: 0px 130px 0px 0px;
+  padding: 0px 100px 0px 0px;
 }
 
 .Clear-button:focus {
