@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
 
-const url = "https://jennyxue.ngrok.io/";
+const url = "https://binhle.ngrok.io/";
 
 class App extends Component {
   constructor(props) {
