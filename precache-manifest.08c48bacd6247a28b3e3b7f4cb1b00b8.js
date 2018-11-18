@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/LoL-Predict/static/js/runtime~main.ae7c56c9.js"
   },
   {
-    "revision": "0c852462b599754709ad",
-    "url": "/LoL-Predict/static/js/main.0c852462.chunk.js"
+    "revision": "ed984cd5f990a87528aa",
+    "url": "/LoL-Predict/static/js/main.ed984cd5.chunk.js"
   },
   {
     "revision": "7e7d8b82aedefa3b8a55",
     "url": "/LoL-Predict/static/js/1.7e7d8b82.chunk.js"
   },
   {
-    "revision": "0c852462b599754709ad",
+    "revision": "ed984cd5f990a87528aa",
     "url": "/LoL-Predict/static/css/main.dacd108a.chunk.css"
   },
   {
-    "revision": "eee019f85f9bf8d669efe658cff91d6b",
+    "revision": "e6ca978e161919c2d0745a93be9c9154",
     "url": "/LoL-Predict/index.html"
   }
 ];
