@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "https://binhle001.github.io/LoL-Predict/",
   "dependencies": {
+    "@material-ui/core": "^3.2.1",
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1",
-    "@material-ui/core": "^3.2.1"
+    "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
