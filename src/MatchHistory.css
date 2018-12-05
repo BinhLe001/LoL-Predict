@@ -1,0 +1,53 @@
+.summary-table {
+  width: 100%;
+  font-size: 16px;
+  color: #696969;
+  border-collapse: separate;
+}
+
+.summary-loading {
+  padding-top: 30px;
+  text-align: center;
+}
+
+th {
+  font-size: 18px;
+}
+tr.table-body-row > td {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.blue-head {
+  color: #7ec8fe;
+}
+
+.red-head {
+  color: #e28092;
+}
+
+table tbody,
+table thead {
+  display: block;
+}
+
+table tbody {
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 235px;
+}
+
+th {
+  width: 130px;
+}
+
+td {
+  width: 130px;
+}
+
+.table-empty {
+    padding: 30px;
+    opacity: 0.8;
+    height: 235px;
+}

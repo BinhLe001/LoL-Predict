@@ -1,5 +1,5 @@
 .App {
-  background-color: #ffffff;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,136 +7,146 @@
 }
 
 .App-header {
-  color: #000000;
+  color: white;
   text-align: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 46px;
-  padding: 10px 0px 0px 50px;
+  padding: 10px 0px 10px 40px;
   font-family: "Krub", sans-serif;
-}
-
-.Header-stroke {
-  background-color: #56ccf2;
-  height: 3px;
-  margin: 10px 30px 10px 30px;
+  background-color: #414141;
 }
 
 .App-body {
   text-align: center;
-}
-
-.Bracket-body {
-  height: 440px;
-  margin: 10px 100px 0px 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  border-right: 3px #000000;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding: 40px 40px 40px 40px;
 }
 
-.Bracket-round {
+.body-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  border: 1px solid #414141;
+  border-radius: 3px;
+  height: 75vh;
 }
 
-.Team-input {
-  margin: 0px 50px 0px 50px;
-  font-size: 16px;
-  border: 0;
+.description-title {
+  color: white;
+  background-color: #414141;
+  padding: 10px 10px 10px 10px;
+}
+
+.description-content {
+  height: 100%;
+  padding: 5px 20px 15px 20px;
+  text-align: left;
+}
+
+.body-model {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #414141;
+  border-radius: 3px;
+  height: 75vh;
+}
+
+.model-title {
+  color: white;
+  background-color: #414141;
+  padding: 10px 10px 10px 10px;
+}
+
+.model-content {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  height: 100%;
+  padding: 10px 20px 10px 20px;
+}
+
+.model-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-title {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  margin: 5px 0px 10px 0px;
+}
+
+.input-title-blue {
+  color: #7ec8fe;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.input-title-red {
+  color: #e28092;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.input-teams {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  margin: 0px 0px 10px 0px;
+  align-content: center;
+}
+
+.input-blue {
   text-align: center;
-  font-family: "Krub", sans-serif;
 }
 
-.Team-input:focus {
-  outline: none;
+.blue-select {
+  width: 200px;
+  display: inline-block;
 }
 
-.Team-stroke {
-  background-color: #000000;
-  height: 3px;
-  /* margin: 0px 10px 0px 10px; */
+.input-red {
+  text-align: center;
 }
 
-.Vertical-stroke {
-  position: absolute;
-  left: 28.75%;
-  background-color: #000000;
-  width: 2px;
-  height: 55px;
+.red-select {
+  width: 200px;
+  display: inline-block;
 }
 
-.Vertical-stroke2 {
-  position: absolute;
-  left: 49.85%;
-  background-color: #000000;
-  width: 2px;
-  height: 110px;
+.predict-button {
+  height: 38px;
+  width: 62px;
+  background-color: #414141;
+  font-size: 14px;
+  color: white;
+  border: 1px solid #414141;
+  border-radius: 3px;
 }
 
-.Vertical-stroke3 {
-  position: absolute;
-  left: 70.95%;
-  background-color: #000000;
-  width: 2px;
-  height: 220px;
-}
-
-.Win-prob {
-  position: absolute;
-  left: 38.4%;
-}
-
-.Win-prob2 {
-  position: absolute;
-  left: 59.6%;
-}
-
-.Win-prob3 {
-  position: absolute;
-  left: 80.8%;
-}
-
-.Bracket-button {
-  text-align: right;
-  padding: 0px 100px 0px 0px;
-}
-
-.Clear-button:focus {
-  outline: none;
-}
-
-.Predict-button:focus {
-  outline: none;
-}
-
-.Clear-button {
+.predict-button:hover {
   cursor: pointer;
-  margin-right: 20px;
-  padding: 0px 10px 0px 10px;
-  border-width: 4px;
-  border-color: #56ccf2;
-  border-radius: 20px;
-  background: none;
-  color: #000000;
-  text-align: left;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 46px;
-  font-family: "Krub", sans-serif;
 }
 
-.Predict-button {
-  cursor: pointer;
-  padding: 0px 10px 0px 10px;
-  border-width: 4px;
-  border-color: #56ccf2;
-  border-radius: 20px;
-  background: none;
-  color: #000000;
-  text-align: left;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 46px;
-  font-family: "Krub", sans-serif;
+.predict-button:focus {
+  outline: 0;
+}
+
+.input-results {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  margin: 0px 0px 10px 0px;
+  align-content: center;
+}
+
+.model-history {
+  /* overflow: scroll; */
+  border-top: 1px solid #414141;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 0px 10px 0px;
+}
+
+.bracket-pic {
+  height: 210px;
+  width: 100%;
 }
