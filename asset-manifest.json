@@ -1,13 +1,15 @@
 {
-  "main.css": "/LoL-Predict/static/css/main.dacd108a.chunk.css",
-  "main.js": "/LoL-Predict/static/js/main.ed984cd5.chunk.js",
-  "main.js.map": "/LoL-Predict/static/js/main.ed984cd5.chunk.js.map",
-  "static/js/1.7e7d8b82.chunk.js": "/LoL-Predict/static/js/1.7e7d8b82.chunk.js",
-  "static/js/1.7e7d8b82.chunk.js.map": "/LoL-Predict/static/js/1.7e7d8b82.chunk.js.map",
+  "main.css": "/LoL-Predict/static/css/main.eabbe24e.chunk.css",
+  "main.js": "/LoL-Predict/static/js/main.6faaac7a.chunk.js",
+  "main.js.map": "/LoL-Predict/static/js/main.6faaac7a.chunk.js.map",
+  "static/css/1.a9ada7d2.chunk.css": "/LoL-Predict/static/css/1.a9ada7d2.chunk.css",
+  "static/js/1.fb6af36d.chunk.js": "/LoL-Predict/static/js/1.fb6af36d.chunk.js",
+  "static/js/1.fb6af36d.chunk.js.map": "/LoL-Predict/static/js/1.fb6af36d.chunk.js.map",
   "runtime~main.js": "/LoL-Predict/static/js/runtime~main.ae7c56c9.js",
   "runtime~main.js.map": "/LoL-Predict/static/js/runtime~main.ae7c56c9.js.map",
-  "static/css/main.dacd108a.chunk.css.map": "/LoL-Predict/static/css/main.dacd108a.chunk.css.map",
+  "static/css/1.a9ada7d2.chunk.css.map": "/LoL-Predict/static/css/1.a9ada7d2.chunk.css.map",
+  "static/css/main.eabbe24e.chunk.css.map": "/LoL-Predict/static/css/main.eabbe24e.chunk.css.map",
   "index.html": "/LoL-Predict/index.html",
-  "precache-manifest.08c48bacd6247a28b3e3b7f4cb1b00b8.js": "/LoL-Predict/precache-manifest.08c48bacd6247a28b3e3b7f4cb1b00b8.js",
+  "precache-manifest.e5bafecd6d09bb495b207dd37bb99695.js": "/LoL-Predict/precache-manifest.e5bafecd6d09bb495b207dd37bb99695.js",
   "service-worker.js": "/LoL-Predict/service-worker.js"
 }
